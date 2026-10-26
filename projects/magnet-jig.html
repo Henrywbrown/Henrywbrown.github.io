@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Henry Brown | Engineering Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
+</head>
+<body>
+    <header>
+        <h1 class="title">Henry Brown</h1>
+        <p>Physics Student | Machinist | Mechanical Design & Fabrication</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="project_page">
+
+        <section class="project_intro">
+            <h2>Variable-Separation Magnet Jig</h2>
+            <p>
+                In Spring 2026 I undertook an independent research project at Wisconsin Lutheran College under Dr. Kerry Kuehn. The physics department had purchased two 2" x 1" N52 neodymium disc magnets in hopes of utilizing them as a fixed magnetic field for various experiments. I was asked to design and built a mechanism that could hold that magnets at a variable separation for experimentation.
+            </p>
+        </section>
+
+        <section class="project_details">
+
+            <article class="project_row">
+                <img src="../images/forcechart.png"
+                     alt="Magnet Force vs Distance Chart">
+
+                <div class="project_text">
+                    <h3>Initial Considerations</h3>
+                    <p>
+                        The disc magnets were purchased from K&J magnetics, their reported strengths when in conjunction with one another are depicted in the force vs distance (in) graph (pictured adjacent). The strength of these magnets poses a number of safety and design challenges. The body of the "jig" or mechanism by which the magnets will be separated must be non-ferrous. The magnets must also be secure so as not to break free from containment. The magnet jig also needed to be convenient for experimentation, having enough space for setups.
+                    </p>
+                </div>
+            </article>
+
+            <article class="project_row reverse">
+                <img src="../images/firstrender.png"
+                     alt="First Prototype">
+
+                <div class="project_text">
+                    <h3>Initial Design</h3>
+                    <p>
+                        I considered three materials for the structure of the jig. First, 316 stainless steel because it is non-magnetic and incredibly strong but its strength also makes it difficult to machine for prototypes. Second, I considered a plastic or an acrylic material; however, considering the strong forces at play and its low yield strength I decided to choose another material. I settled on aluminum, the clear best choice, because it is easy to machine and yet incredibly strong. Since I would be machining my parts, I took the time to learn Fusion 360 in order to model a first prototype. I decided I wanted to use a lead screw and a vise-like construction to achieve a variable separation of the magnets. My first model used a dove-tail bed way with adjustable gibs, a static end, dynamic end, and a lead-screw driving it all. (pictured adjacent)
+                    </p>
+                </div>
+            </article>
+
+            <article class="project_row">
+                <img src="../images/MagnetJig.png"
+                     alt="Final design">
+
+                <div class="project_text">
+                    <h3>Updated 3-D Model</h3>
+                    <p>
+                        While my first model had no actual machining impossibilities, its overall construction was unrealistic. The initial design required a significant amount of material, all of which needed extensive machining. Dr. Kuehn suggested that I consider using materials from 8020.net. I also began browsing hardware and material from McMaster-Carr. I was able to implement both the 8020 materials and McMaster hardware in my updated model. (pictured adjacent)
+                    </p>
+                </div>
+            </article>
+
+            <article class="project_row reverse">
+                <img src="../images/Mill.jpeg"
+                     alt="Milling machine">
+
+                <div class="project_text">
+                    <h3>Building the Jig</h3>
+                    <p>
+                        With a solid design modeled in Fusion I took the opportunity to make blueprints for all the necessary pieces to aid in the machining process. This project required me to spend a lot of hours learning in the machine shop. My industry experience helped me to pick things up very quickly. I learned to edgefind, peck-drill, frame mill, tap, face, and mill using both linear and circular interpolation. We also optimized the school's verticle bandsaw to be able to cut 1.25" thick 6020 aluminum.
+                    </p>
+                </div>
+            </article>
+
+            <article class="project_row">
+                <img src="../images/current%20jig.jpeg"
+                     alt="Final Design" class="finalimagemagnetjig">
+
+                <div class="project_text">
+                    <h3>Continued Work</h3>
+                    <p>
+                        As the project stands on 10/23/26 the lead screw needs to be turned and the dynamic magnet chuck needs its leadscrew threads cut. Once those pieces are completed the jig can be fully assembled and tested. I plan to conduct basic magnetohydrodynamic experiments with the jig and other experimental setups in order to assess the capabilities and or shortfalls of the Variable-Separation Magnet Jig. In the event that the Jig proves successful I will more thoughtfully construct experiments around it. If the jig fails in practical testing I will improve on its design.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section class="project_gallery">
+            <img src="../images/partialcomplete.jpeg"
+                 alt="partial assembly image">
+
+            <img src="../images/staticchuck.jpeg"
+                 alt="static chuck image">
+
+            <img src="../images/machining.jpeg"
+                 alt="machining image">
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer_main">
+            <div class="footer_title">
+                <h2>Henry Brown</h2>
+                <p>Physics Student | Machining | Mechanical Design & Fabrication</p>
+            </div>
+
+            <div class="footer_links">
+                <a href="../index.html">Home</a>
+                <a href="../projects.html">Projects</a>
+                <a href="../about.html">About</a>
+                <a href="../resume.html">Resume</a>
+                <a href="mailto:henrywbrown15@gmail.com">Email</a>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            <p>&copy; 2026 Henry Brown | Engineering Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
